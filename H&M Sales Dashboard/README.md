@@ -16,6 +16,8 @@ The interactive Tableau dashboard can be found [here](https://public.tableau.com
 
 ## Data Structure & Initial Checks
 
+The data used in this project was sourced from the [H&M Personalized Fashion Recommendations dataset](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=articles.csv) available on Kaggle.
+
 The dataset consists of three primary tables with historical transactional data and supporting metadata.
 
 ### Tables Overview
@@ -26,6 +28,10 @@ The dataset consists of three primary tables with historical transactional data 
 
 - **transactions_train**: Contains transaction-level purchase data (September 2018 - September 2020), including customer_id, article_id, transaction date, price, and sales channel.
 Duplicate rows indicate multiple purchases of the same item by the same customer on the same date.
+
+<img width="550" height="350" alt="Screenshot 2025-12-29 at 12 46 44 PM" src="https://github.com/user-attachments/assets/18b04695-9804-483b-a179-7e9b6aa54e0b" />
+
+**Note:** The Entity Relationship Diagram (ERD) represents a reduced schema derived from the original dataset, including only the attributes used in analysis. Unused article-level fields available in the source data were intentionally omitted.
 
 ## Executive Summary
 
